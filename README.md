@@ -1,27 +1,26 @@
 # vant180625
 
-> A Vue.js project
+一个挺奇怪的问题！
 
-## Build Setup
+暂时只在Android的Google Chrome上发现。
+
+> 在某种情况下，绝对定位的元素触摸不到，详细点说，就是在视觉上是触摸这个元素，但实际上是触摸到了另一个地方。
+
+至于这个"某种情况"，暂时没有确定，也就是这个问题的重现方式我暂时也说不定。这个大致给一些操作逻辑，但不确保可以触发：
+1. 快速滑动到底部，再向上滑动一段距离；
+2. 随意上下滑动；
+3. 在滑动之前附带一些随机触摸操作；
+
+[查看视频](https://github.com/ansonhorse/vant-touch-skewing/raw/master/screenshots/2018-06-25_12_02_54.mp4)
+
 
 ``` bash
-# install dependencies
-npm install
+# 1. 按需修改开发模式访问的ip和port，以让手机可以访问
+config.dev.host
+config.dev.port
 
-# serve with hot reload at localhost:8080
+# 2. run
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
+# 3. 访问 http://你的ip:port/#/test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
