@@ -13,6 +13,11 @@
 
 [查看视频](https://github.com/ansonhorse/vant-touch-skewing/raw/master/screenshots/2018-06-25_12_02_54.mp4)
 
+### 2018-06-25 15:27:11 更新：
+> 做了一个纯粹的示例，发现也有这个问题，看来这个应该是Chrome本身的bug。
+
+[不引用vant或者其他任何UI库的测试示例](https://github.com/ansonhorse/vant-touch-skewing/raw/master/screenshots/plain.mp4)
+
 
 ``` bash
 # 1. 按需修改开发模式访问的ip和port，以让手机可以访问
